@@ -1,2 +1,7 @@
 language: C
 cache: ccache
+
+before-script:
+        - ( cd buildroot ; make defconfig )
+script:
+        - ( cd buildroot ; make )
