@@ -2,4 +2,4 @@ language: C
 cache: ccache
 
 script:
-        - ( cd buildroot ; make deconfig ; make )
+        - ( cd buildroot ; make raspberrypi_defconfig ; make )
