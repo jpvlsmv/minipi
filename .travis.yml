@@ -2,4 +2,4 @@ language: C
 cache: ccache
 
 script:
-        - ( cd buildroot ; make BR2_EXTERNAL=../minipi raspberrypi_defconfig ; make sdk ; make )
+        - build.sh
