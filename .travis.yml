@@ -2,4 +2,4 @@ language: C
 cache: ccache
 
 script:
-        - build.sh
+        - ./build.sh
