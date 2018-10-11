@@ -1,5 +1,9 @@
 language: C
 cache: ccache
+sudo: true
+
+before_install:
+    - sudo apt-get install -y $(cat requirements-dpkg.txt)
 
 script:
         - ./build.sh
